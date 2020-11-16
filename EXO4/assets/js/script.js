@@ -1,6 +1,6 @@
 let days = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche'];
-var text = "";
-var i;
+let text = "";
+let i;
 days.forEach((value,index) => {
     if (index <= 4) {
         text += '<p>' + value + '</p>';
